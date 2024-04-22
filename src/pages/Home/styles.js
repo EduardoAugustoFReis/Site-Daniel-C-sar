@@ -123,3 +123,39 @@ export const Footer = styled.div`
     }
   }
 `;
+
+export const WhatsAppButtonFixed = styled.button`
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: #0fbd69;
+
+  position: fixed;
+
+  bottom: 1.0rem;
+  right: 5.0rem;
+
+  >a{
+    color: #fff;
+
+    >svg{
+      font-size: 4.4rem;
+    }
+  }
+
+  @media (max-width: 700px){
+    height: 50px;
+    width: 50px;
+    
+    right: 10px;
+
+    >a{
+
+    >svg{
+      font-size: 3.4rem;
+    }
+    }
+  }
+  
+`;

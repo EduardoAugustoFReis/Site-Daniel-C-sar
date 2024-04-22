@@ -1,8 +1,10 @@
-import {Container, Footer, Header, Main} from "./styles"
+import {Container, Footer, Header, Main, WhatsAppButtonFixed} from "./styles"
 
 import {ButtonWhatsApp} from "../../components/whatsAppButton";
 
 import LogoImg from "../../assets/CamScanner 21-04-2024 16.18_page-0001.png";
+
+import { BsWhatsapp } from "react-icons/bs";
 
 export function Home(){
   
@@ -15,6 +17,13 @@ export function Home(){
       </Header>
 
       <Main>
+
+        <WhatsAppButtonFixed>
+        <a href="https://wa.me/5561995518888" target="_blank">
+          <BsWhatsapp/>
+        </a>
+        </WhatsAppButtonFixed>
+
         <img src={LogoImg} alt="Imagem da logo do personal trainer" />
         
         <ButtonWhatsApp title="Faça sua primeira avaliação física"/>
