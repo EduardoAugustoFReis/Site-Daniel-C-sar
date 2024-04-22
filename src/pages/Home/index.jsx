@@ -19,7 +19,7 @@ export function Home(){
       <Main>
 
         <WhatsAppButtonFixed>
-        <a href="https://wa.me/5561995518888" target="_blank">
+        <a href="https://wa.me/5561995518888?text=Daniel Rodovalho agradece seu contato, vamos treinar?" target="_blank">
           <BsWhatsapp/>
         </a>
         </WhatsAppButtonFixed>

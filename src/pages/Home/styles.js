@@ -17,7 +17,7 @@ export const Header = styled.div`
   padding: 1.2rem;
   text-align: center;
 
-  background-color: #B70003;
+  background-color: #FD0101;
 
   color: #fff;
   
@@ -93,7 +93,7 @@ export const Main = styled.div`
     }
 
     >p{ 
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
 
     >ul{
@@ -109,7 +109,7 @@ export const Footer = styled.div`
   text-align: center;
   padding: 1.0rem;
 
-  background-color: #B70003;
+  background-color: #FD0101;
 
   >span{
     font-size: 1.8rem;
